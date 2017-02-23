@@ -1,5 +1,5 @@
 # Retro Pie Scratch
-Scratch 1.4 Installer Script for RetroPie
+Scratch 2.0 Installer Script for RetroPie
 # Does not work. ; ;
 Installation
 ------------
