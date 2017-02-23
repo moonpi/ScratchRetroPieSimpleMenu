@@ -4,7 +4,9 @@ Scratch 2.0 Installer Script for RetroPie
 Installation
 ------------
 Switch your x11 settings to anybody
-`dpkg-reconfigure x11-common`
+```
+dpkg-reconfigure x11-common
+```
 
 
 ```sh
