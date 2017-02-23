@@ -48,6 +48,6 @@ cd /home/pi/RetroPie/roms/scratch
 #sudo chmod +x Pony-Math.sh
 #sudo chmod +x Rabbit-Eats-Math-for-Breakfast-Pi.sh
 sudo chmod +x Epic-Ninja.sh
-sudo chmod +x Foil-Mario.sh
+sudo chmod +x FOIL-Mario.sh
 
 echo -e "\nEverything done! \n"
