@@ -1,6 +1,8 @@
 # Retro Pie Scratch
-Scratch 2.0 Installer Script for RetroPie
-# Does not work. ; ;
+Phosophorous Scratch Installer Script for RetroPie.
+## Untested
+After attempting a Scratch 1.4 port and a Scratch 2.0 port on Chromium without much luck, I have decided to try Phosphorous. Let's hope this works.
+
 Installation
 ------------
 Switch your x11 settings to anybody
