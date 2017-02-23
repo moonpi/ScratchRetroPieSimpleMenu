@@ -20,8 +20,8 @@ sudo mkdir /home/pi/RetroPie/roms/scratch
 cd /home/pi/RetroPie/roms/scratch
 #sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Pony-Math.sh
 #sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Scratch-Napped.sh
-#sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Rabbit-Eats-Math-for-Breakfast-Pi.sh
-#sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/FOIL-Mario.sh
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Epic-Ninja.sh
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/FOIL-Mario.sh
 
 #Install Scratch to Emulation Station as its own device menu
 
@@ -41,9 +41,9 @@ cd /home/pi/RetroPie/roms/scratch
 
 #Chmod scripts to be runnable
 
-sudo chmod +x Pony-Math.sh
-sudo chmod +x Scratch-Napped.sh
-sudo chmod +x Rabbit-Eats-Math-for-Breakfast-Pi.sh
+#sudo chmod +x Pony-Math.sh
+#sudo chmod +x Rabbit-Eats-Math-for-Breakfast-Pi.sh
+sudo chmod +x Epic-Ninja.sh
 sudo chmod +x Foil-Mario.sh
 
 echo -e "\nEverything done! \n"
