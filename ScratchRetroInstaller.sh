@@ -6,6 +6,7 @@ sudo apt-get update
 #sudo apt-get dist-upgrade
 sudo apt-get -y install matchbox chromium-browser x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
 sudo apt-get -y install midori
+sudo apt-get install xboxdrv
 
 
 #echo -e "\n Switch your x11 settings to anybody \n" 
