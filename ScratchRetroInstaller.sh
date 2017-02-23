@@ -11,6 +11,10 @@ sudo apt-get -y install midori
 #echo -e "\n Switch your x11 settings to anybody \n" 
 #sudo dpkg-reconfigure x11-common
 
+# http://unix.stackexchange.com/questions/153870/how-can-i-configure-anybody-to-run-x-in-a-one-liner
+sudo sed -i \
+    's/allowed_users=console/allowed_users=anybody/' /etc/X11/Xwrapper.config
+
 #create folders for install
 
 sudo mkdir /home/pi/RetroPie/roms/scratch
