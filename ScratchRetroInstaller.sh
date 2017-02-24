@@ -4,6 +4,7 @@
 
 sudo apt-get update
 #sudo apt-get dist-upgrade
+# sudo apt-get -y install chromium-browser 
 sudo apt-get -y install matchbox chromium-browser x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
 sudo apt-get -y install midori
 # sudo apt-get -y install xboxdrv
@@ -32,7 +33,7 @@ cd /home/pi/RetroPie/roms/scratch
 #sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Scratch-Napped.sh
 sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Epic-Ninja.sh
 sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/FOIL-Mario.sh
-
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Geometry-Jump.sh
 #Install Scratch to Emulation Station as its own device menu
 
 sudo sed -i -e 's|</systemList>|<system>\n<name>scratch</name>\n<fullname>Scratch</fullname>\n<path>~/RetroPie/roms/scratch</path>\n<extension>.sh .SH</extension>\n<command>xinit /home/pi/RetroPie/roms/scratch/scratch.sh</command>\n<platform>scratch</platform>\n<theme>scratch</theme>\n</system>\n</systemList>|g' /etc/emulationstation/es_systems.cfg
@@ -55,6 +56,7 @@ cd /home/pi/RetroPie/roms/scratch
 #sudo chmod +x Rabbit-Eats-Math-for-Breakfast-Pi.sh
 sudo chmod +x Epic-Ninja.sh
 sudo chmod +x FOIL-Mario.sh
+sudo chmod +x Geometry-Jump.sh
 
 # https://ubuntuforums.org/showthread.php?t=903858
 #sudo apt-get install python-xlib python-pygame svn
