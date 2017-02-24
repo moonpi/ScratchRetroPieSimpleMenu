@@ -66,5 +66,6 @@ sudo mkdr /home/pi/.qjoypad3
 
 cd /home/pi/.qjoypad3
 sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Epic-Ninja.lyt
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/FOIL-Mario.lyt
 
 echo -e "\nEverything done! \n"
