@@ -18,4 +18,5 @@ midori -e Fullscreen -a https://phosphorus.github.io/app.html?id=21554369&turbo=
 # Button 1,2 (A,B) = Jump
 # Buton 4 (Y) = Attack
 # Button 3 (X) = Throw
+# Button 8 (Start) = Pause
 # Button 7 (Select) = Music on/off
