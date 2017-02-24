@@ -26,3 +26,5 @@ or
 wget --no-check-certificate https://goo.gl/j7Uj3f -O - | bash
 ```
 5) Pray it works
+
+Note: I have no affliation with the makers of Phosophorous or Scratch. 
