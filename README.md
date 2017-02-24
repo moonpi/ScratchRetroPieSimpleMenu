@@ -1,7 +1,7 @@
 # Retro Pie Scratch
 Experimental Phosophorous Scratch Installer Script for RetroPie.
-## Not Working
-After attempting a Scratch 1.4 port and a Scratch 2.0 port on Chromium without much luck, I have decided to try Phosphorous. Still isn't working. The issue seems to be with matchbox and X
+## Not Working on RetroPie
+After attempting a Scratch 1.4 port and a Scratch 2.0 port on Chromium without much luck, I have decided to try Phosphorous. Still isn't working. The issue seems to be with matchbox and X. It works on the desktop though lol.
 
 Installation
 ------------
