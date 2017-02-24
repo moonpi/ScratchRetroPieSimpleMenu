@@ -7,7 +7,7 @@ Installation
 ------------
 1) Install RetroPie. https://github.com/retropie/retropie-setup/wiki/manual-installation
 
-2) Install the Simple theme on your RetroPie. (That's the only theme that works so far)
+2) Install the Simple theme on your RetroPie. (That's the only theme that works so far) (If you don't do this, it is not going to be pretty)
  https://github.com/retropie/retropie-setup/wiki/themes
  
 3) Switch your x11 settings to anybody
