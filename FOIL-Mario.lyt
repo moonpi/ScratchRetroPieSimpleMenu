@@ -9,5 +9,5 @@ Joystick 1 {
         Button 3: key 28
         Button 4: key 65
         Button 7: key 58
-        Button 8: key 33
+        Button 8: key 39
 }
