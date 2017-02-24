@@ -6,7 +6,11 @@ sudo apt-get update
 #sudo apt-get dist-upgrade
 sudo apt-get -y install matchbox chromium-browser x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
 sudo apt-get -y install midori
-sudo apt-get install xboxdrv
+# sudo apt-get -y install xboxdrv
+
+# http://www.linuxquestions.org/questions/linux-software-2/using-gamepad-as-keyboard-input-706963/
+# joypad app
+sudo apt-get -y install qjoypad
 
 
 #echo -e "\n Switch your x11 settings to anybody \n" 
@@ -15,6 +19,7 @@ sudo apt-get install xboxdrv
 # http://unix.stackexchange.com/questions/153870/how-can-i-configure-anybody-to-run-x-in-a-one-liner
 sudo sed -i \
     's/allowed_users=console/allowed_users=anybody/' /etc/X11/Xwrapper.config
+    
 
 #create folders for install
 
@@ -50,5 +55,16 @@ cd /home/pi/RetroPie/roms/scratch
 #sudo chmod +x Rabbit-Eats-Math-for-Breakfast-Pi.sh
 sudo chmod +x Epic-Ninja.sh
 sudo chmod +x FOIL-Mario.sh
+
+# https://ubuntuforums.org/showthread.php?t=903858
+#sudo apt-get install python-xlib python-pygame svn
+#mkdir ~/jkeys
+#cd ~/jkeys
+#svn checkout http://jkeys.googlecode.com/svn/trunk/ jkeys-read-only
+
+sudo mkdr /home/pi/.qjoypad3
+
+cd /home/pi/.qjoypad3
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Epic-Ninja.lyt
 
 echo -e "\nEverything done! \n"
