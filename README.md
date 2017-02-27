@@ -1,7 +1,7 @@
-# Retro Pie Scratch
-Experimental Phosophorous Scratch Installer Script for RetroPie.
-## Not Working on RetroPie
-After attempting a Scratch 1.4 port and a Scratch 2.0 port on Chromium without much luck, I have decided to try Phosphorous. Still isn't working. The issue seems to be with matchbox and X. It works on the desktop though lol.
+# Scratch Menu for Simple Theme on RetroPie
+After trying to port Scratch to RetroPie with no luck, I am leaving the menu for the simple theme here for use by anyone who wants to make a Scratch emulator for RetroPie. Feel free to change the images, etc. 
+
+*This will only make a menu and a rom directory. It is not an emulator.*
 
 Installation
 ------------
@@ -10,7 +10,6 @@ Installation
 2) Install the Simple theme on your RetroPie. (That's the only theme that works so far) (If you don't do this, it is not going to be pretty)
  https://github.com/retropie/retropie-setup/wiki/themes
  
-3) Switch your x11 settings to anybody
 ```
 dpkg-reconfigure x11-common
 ```
@@ -25,6 +24,3 @@ or
 ```sh
 wget --no-check-certificate https://goo.gl/j7Uj3f -O - | bash
 ```
-5) Pray it works
-
-Note: I have no affliation with the makers of RetroPie, Phosophorous, QJoy, or Scratch. 
